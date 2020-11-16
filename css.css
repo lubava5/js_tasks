@@ -1,0 +1,169 @@
+
+.simple-slider-container{
+margin-bottom: 100px;
+}
+
+
+
+a,
+a:visited,
+a:active,
+a:focus {
+  color: #0091d9;
+  text-decoration: none;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #ff6163;
+}
+
+.simple-slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.arrow {
+  font-size: 30px;
+}
+
+.slider {
+  display: flex;
+  width: 300px;
+  overflow: hidden;
+  margin: 0 10px;
+}
+
+.items {
+  display: flex;
+  position: relative;
+  color: #444;
+  font-size: 30px;
+  right: 0;
+  transition: right .3s;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: papayawhip;
+  box-sizing: border-box;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #444;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+
+}
+/* /////////////////////// */
+.wrapper {
+  position: relative;
+ 
+  height: 300px;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(00, 00, 00, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000;
+}
+
+.modal-container {
+  margin-top: 20px;
+  position: relative;
+}
+
+.content {
+  width: 400px;
+  background: #444;
+  border-radius: 5px;
+  padding: 10px;
+  color: #fff;
+  margin: 0;
+}
+
+.close {
+  color: #fff;
+  position: absolute;
+  right: -5px;
+  top: -10px;
+  background: #d00;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.close:hover {
+  background: #d33;
+}
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  background: #a492e6;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 18px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+/* ///////////////////// */
+.controls {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-selector {
+  margin-right: 10px;
+}
+
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item1 {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border: 1px solid black;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
